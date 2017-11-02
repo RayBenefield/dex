@@ -1,7 +1,7 @@
 {
     "name": "dex-cli",
     "description": "Promodoro Technique Time Tracker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/RayBenefield/dex-cli",
     "author": {
         "name": "Raymond Benefield",
@@ -36,7 +36,11 @@
         "major": "npm version major -m 'v%s' && js-beautify -r package.json && git commit -a --amend --no-edit"
     },
     "dependencies": {
-        "lodash": "^2.4.0"
+        "chalk": "^2.3.0",
+        "inquirer": "^3.3.0",
+        "lodash": "^2.4.0",
+        "rxjs": "^5.5.2",
+        "transmutation": "^0.0.17"
     },
     "devDependencies": {
         "babel-cli": "^6.24.1",
@@ -63,7 +67,20 @@
             "es2017"
         ],
         "plugins": [
-            "wildcard"
+            [
+                "wildcard",
+                {
+                    "exts": [
+                        "js",
+                        "es6",
+                        "es",
+                        "jsx",
+                        "javascript",
+                        "json"
+                    ],
+                    "noCamelCase": true
+                }
+            ]
         ]
     }
 }
