@@ -1,3 +1,5 @@
+ - Create a readme
+ - Create a product page on Ship at ProductHunt
  - Create MVP use case
  - Design initial Interface interaction
  - Setup Firebase Project
