@@ -1,0 +1,6 @@
+ - Create MVP use case
+ - Design initial Interface interaction
+ - Setup Firebase Project
+ - Setup API Project for deployment
+ - Setup CLI Project for publishing to NPM
+ - Setup deployment script for easy publishing of new features
