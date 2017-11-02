@@ -31,9 +31,9 @@
         "lint": "eslint -c .eslintrc.json src/",
         "test": "nodemon src/index.test.js --exec babel-node",
         "sloc": "echo 'Lines of source code: ' && sloc src/ --exclude node_modules -f json | jq '.summary.source'",
-        "patch": "npm version patch -m 'v%s' && js-beautify -r package.json && git commit -a --amend --no-edit",
-        "minor": "npm version minor -m 'v%s' && js-beautify -r package.json && git commit -a --amend --no-edit",
-        "major": "npm version major -m 'v%s' && js-beautify -r package.json && git commit -a --amend --no-edit"
+        "patch": "npm version patch -m 'v%s' && js-beautify -r package.json",
+        "minor": "npm version minor -m 'v%s' && js-beautify -r package.json",
+        "major": "npm version major -m 'v%s' && js-beautify -r package.json"
     },
     "dependencies": {
         "chalk": "^2.3.0",
