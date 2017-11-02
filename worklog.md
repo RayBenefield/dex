@@ -1,5 +1,16 @@
 # Worklog
 
+## #3
+
+Decided to work on the CLI tool right away and jump right into interface design.
+Created the project folder and made modifications to make sure it was easy to
+publish every time I needed to. Made sure versioning was working correctly and
+everything. Should be good to go now and I'll just start working on the
+interface interaction design now and then get back to use cases another time.
+
+![Interface Design #1](./images/Interface-Design-1.png)
+
+
 ## #2
 
 Spent some time organizing the Brainstorming done in the first session into

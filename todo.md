@@ -1,7 +1,8 @@
  - Create MVP use case
  - Create predicted data structures
  - Design initial Interface interaction
- - Create a readme
+ - Create a readme for project
+ - Create a readme for CLI
  - Create a product page on Ship at ProductHunt
  - Setup Firebase Project
  - Setup API Project for deployment
