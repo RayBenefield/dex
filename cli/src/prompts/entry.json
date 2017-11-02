@@ -1,0 +1,17 @@
+[
+    {
+        "type": "list",
+        "name": "entry",
+        "message": "Login if you have an account, otherwise Sign Up below:",
+        "choices": [
+            {
+                "name": "Login",
+                "value": "login"
+            },
+            {
+                "name": "Signup",
+                "value": "signup"
+            }
+        ]
+    }
+]
