@@ -1,5 +1,14 @@
 # Worklog
 
+## #4
+
+Went through to get the prompt system working properly so I can get interface
+design going. Got the initial login menu setup and next I'll be working on
+getting the actual timer menu setup which should be relatively simple, but might
+not be because of the damn bottom bar that will constantly be updating. We'll
+see how well that goes.
+
+
 ## #3
 
 Decided to work on the CLI tool right away and jump right into interface design.
