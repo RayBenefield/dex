@@ -1,7 +1,7 @@
 [
     {
         "type": "list",
-        "name": "entry",
+        "name": "action",
         "message": "Main Menu:",
         "choices": [
             {

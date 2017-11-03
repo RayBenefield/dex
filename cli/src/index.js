@@ -16,11 +16,19 @@ print.divider();
 print.instructions();
 print.divider();
 
+let state = {};
+
 Observable
-    .of({})
+    .of(state)
+    .map(() => state)
     .mergeMap(entry)
+    .do((currentState) => { state = currentState; })
     .mergeMap(menu)
-    .subscribe(console.log); // eslint-disable-line no-console
+    .do(() => process.stdout.write('\r\x1b[K'))
+    .repeat()
+    .subscribe(({ action }) => {
+        if (action === 'quit') process.exit(0);
+    }); // eslint-disable-line no-console
 
 // eslint-disable-next-line no-console
 console.log();
