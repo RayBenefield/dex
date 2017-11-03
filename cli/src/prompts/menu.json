@@ -1,0 +1,17 @@
+[
+    {
+        "type": "list",
+        "name": "entry",
+        "message": "Main Menu:",
+        "choices": [
+            {
+                "name": "Start Timer",
+                "value": "start"
+            },
+            {
+                "name": "Quit",
+                "value": "quit"
+            }
+        ]
+    }
+]

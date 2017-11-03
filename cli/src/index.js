@@ -1,9 +1,11 @@
 #! /usr/bin/env node
 import { Observable } from 'rxjs';
 import configureEntry from './flows/entry';
+import configureMenu from './flows/menu';
 import * as print from './print'; // eslint-disable-line import/no-unresolved, import/extensions
 
 const entry = configureEntry();
+const menu = configureMenu();
 
 // eslint-disable-next-line no-console
 console.log();
@@ -17,6 +19,7 @@ print.divider();
 Observable
     .of({})
     .mergeMap(entry)
+    .mergeMap(menu)
     .subscribe(console.log); // eslint-disable-line no-console
 
 // eslint-disable-next-line no-console

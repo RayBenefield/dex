@@ -4,4 +4,5 @@ import * as prompts from '../prompts'; // eslint-disable-line import/no-unresolv
 
 export default () => transmute()
     .extend(() => prompt(prompts.entry))
-    .extend(() => prompt(prompts.login));
+    .extend('user', () => prompt(prompts.login)
+        .then(() => ({ first_name: 'Ray' })));
