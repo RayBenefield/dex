@@ -3,6 +3,7 @@ import transmute from 'transmutation';
 import { prompt, Separator, ui } from 'inquirer';
 import * as prompts from '../prompts'; // eslint-disable-line import/no-unresolved, import/extensions
 
+let timer;
 const bar = new ui.BottomBar();
 bar.rl.output.mute();
 
@@ -12,7 +13,11 @@ setInterval(() => {
     if (menuOn) {
         updated = false;
         bar.rl.output.unmute();
-        bar.updateBottomBar(chalk.gray('───'));
+        if (!timer) {
+            bar.updateBottomBar(chalk.gray('─────No Timer────────────'));
+        } else {
+            bar.updateBottomBar(chalk.gray(`─────${Date.now()}────────────`));
+        }
     }
     if (!menuOn && !updated) {
         updated = true;
@@ -36,4 +41,8 @@ menu[0].choices.push(bottom);
 
 export default () => transmute()
     .do(() => bar.toggleOn())
-    .extend(() => prompt(menu));
+    .extend(() => prompt(menu))
+    .switch('action', {
+        start: transmute()
+            .do(() => { timer = true; }),
+    });
