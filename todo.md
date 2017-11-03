@@ -1,3 +1,6 @@
+ - Show timer based on minutes
+ - Stop timer
+ - Abstract the bottom bar into its own file
  - Create MVP use case
  - Create predicted data structures
  - Design initial Interface interaction

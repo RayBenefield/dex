@@ -1,5 +1,17 @@
 # Worklog
 
+## #5
+
+Continued with the interface design by setting up the menu after logging in and
+maintianing state during that menu. Then setting up a bottom bar for the menu
+that updates regularly which will hold our timer later. Then setup a quit action
+to let users exit the program and got the initial groundwork for the start timer
+action. Next I'll have to explore changing the menu when the timer is running
+vs not running and then setup the action to stop the timer.
+
+![Interface Design #2](./images/Interface-Design-2.png)
+
+
 ## #4
 
 Went through to get the prompt system working properly so I can get interface
