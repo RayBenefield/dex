@@ -1,5 +1,17 @@
 # Worklog
 
+## #9
+
+Slowly getting back into the coding of the interface (I hate frontend even if it
+is just a CLI tool). I finally abstracted the bar into its own file and set
+things outside of it. I need to give it a width so the text that is set in it
+can be placed neatly in the bar with proper coloring and stuff. I also need to
+change the formatting of the timer so it is displayed as a count down from 25
+minutes and then track overtime as well and change the color and stuff. But
+start and stop works now which is awesome. And a solid start moving forward. It
+is break time.
+
+
 ## #8
 
 Setup the Firebase project to make sure we can start working with the API soon
