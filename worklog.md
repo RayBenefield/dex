@@ -1,5 +1,13 @@
 # Worklog
 
+## #8
+
+Setup the Firebase project to make sure we can start working with the API soon
+since we are getting close to a simple interface that we can use. Didn't take
+too long just had to steal a bunch of things from Hermes that I figured out that
+I wanted.
+
+
 ## #7
 
 Setup an initial readme file for the project and the CLI tool. Filled in some
