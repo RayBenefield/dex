@@ -1,5 +1,16 @@
 # Worklog
 
+## #6
+
+Started work on the **ProductHunt Ship** page for entry into the Hackathon's
+first deliverable. Got a sense of things that existed there and what the Ship
+page was all about. While I was at it I also setup a sort of intermediary idea
+for a logo which wasn't actually that bad. I'll find somebody to make a better
+logo for me later. Here it is below:
+
+![Initial Logo](./images/logo.png)
+
+
 ## #5
 
 Continued with the interface design by setting up the menu after logging in and
