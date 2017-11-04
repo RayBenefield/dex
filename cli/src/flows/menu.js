@@ -1,11 +1,12 @@
 import _ from 'lodash';
 import transmute from 'transmutation';
 import { prompt, Separator } from 'inquirer';
-import bar from './bottom-bar';
+import createBar from './bottom-bar';
 import * as prompts from '../prompts'; // eslint-disable-line import/no-unresolved, import/extensions
 
 let timer;
 
+const bar = createBar();
 const bottom = new Separator();
 const menu = prompts.menu;
 menu[0].choices.push(bottom);
