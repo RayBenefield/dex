@@ -1,7 +1,7 @@
 {
     "name": "dex-cli",
     "description": "Promodoro Technique Time Tracker",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "homepage": "https://github.com/RayBenefield/dex-cli",
     "author": {
         "name": "Raymond Benefield",
