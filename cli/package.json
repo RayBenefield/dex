@@ -1,7 +1,7 @@
 {
     "name": "dex-cli",
     "description": "Promodoro Technique Time Tracker",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "homepage": "https://github.com/RayBenefield/dex-cli",
     "author": {
         "name": "Raymond Benefield",
@@ -20,7 +20,7 @@
         "dex": "src/index.js"
     },
     "scripts": {
-        "prebuild": "npm run clean && mkdir -p dist/ && cp package.json yarn.lock LICENSE readme.md dist/",
+        "prebuild": "npm run clean && mkdir -p dist/images && cp package.json yarn.lock LICENSE readme.md dist/ && cp ../images/logo.png images/",
         "build": "babel src/ -d dist/src --ignore '**/*.test.js' --copy-files",
         "clean": "rimraf dist",
         "dev": "babel-node src/index.js",
