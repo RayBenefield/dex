@@ -92,6 +92,14 @@ The **MVP** of `Dex` shoots to accomplish the following use cases:
  - *Follow developers (and other social networking concepts)*
 
 
+## Resources
+
+ - [**Original Pomodoro Paper by Francesco
+   Cirillo**](http://www.baomee.info/pdf/technique/1.pdf)
+ - [**[Lifehacker] Productivity 101: A Primer to The Pomodoro
+   Technique**](https://lifehacker.com/productivity-101-a-primer-to-the-pomodoro-technique-1598992730)
+
+
 ## Team
 
 |[![Ray Benefield](http://gravatar.com/avatar/e931b13306ea1022549766266727f789?s=144)](https://github.com/RayBenefield) |
