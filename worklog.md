@@ -1,5 +1,13 @@
 # Worklog
 
+## #7
+
+Setup an initial readme file for the project and the CLI tool. Filled in some
+history as well as a potential roadmap and some other little fine tuning
+details. Also adjusted some of the CLI publishing to take into account the
+readme file.
+
+
 ## #6
 
 Started work on the **ProductHunt Ship** page for entry into the Hackathon's
