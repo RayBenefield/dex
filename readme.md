@@ -7,6 +7,9 @@
 
 # Dex
 
+[![npm version](https://badge.fury.io/js/dex-cli.svg)](https://badge.fury.io/js/dex-cli)
+[![npm](https://img.shields.io/npm/dt/dex-cli.svg)](https://www.npmjs.com/package/dex-cli)
+
 `Dex` is a Pomodoro time, task, and worklog tracking platform.
 
 
